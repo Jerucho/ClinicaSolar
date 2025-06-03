@@ -1,0 +1,57 @@
+Archivos del sistema,
+.DS_Store
+Thumbs.db
+
+Archivos de compilación,
+/target/
+/build/
+
+Dependencias (Maven y Gradle),
+**/dependency-reduced-pom.xml
+.mvn/
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+.gradle/
+build/
+
+Archivos de configuración de IDEs,
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+
+Logs,
+*.log
+
+Archivos temporales,
+*.tmp
+*.swp
+*.swo
+*.bak
+
+Sistema operativo,
+ehthumbs.db
+Icon?
+Desktop.ini
+
+Archivos generados,
+*.class
+*.jar
+*.war
+*.ear
+
+Archivos de entorno,
+.env
+.local
+application.properties
+application.yml
+application-.properties
+application-*.yml
+
+Base de datos H2 local,
+*.mv.db
+*.h2.db
+
+Otros,
+node_modules/
